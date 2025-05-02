@@ -2,3 +2,7 @@ p {
   font-family: 'Caveat', sans-serif;
   font-weight: 700;
 }
+  .style{
+    
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+}
