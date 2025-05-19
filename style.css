@@ -1,8 +1,136 @@
-@import  url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-.p {
-  font-family: 'Caveat', sans-serif;
-  font-weight: 500;
-   background-color: red;
+body {
+background-image: url('https://i.pinimg.com/736x/fe/c2/03/fec203d7fb7e50ad43ac50a064431474.jpg');
+ background-size: 1510px;
+background-attachment: fixed;
 }
+.conteiner{
+  text-align: justify;
+  
+}
+
+.nazvanie {
+  background: #FDD9B5;
+  height: 200px;
+  text-align: center;
+  }
+
+.menu{
+  background: #4287f5;
+  height: 10px;
+}
+
+.text{
+  float: left;
+  width: 33%;
+  height: 2000px;
+  background: #859ec7;
+
+  
+}
+
+.izobr{
+  float: right;
+  width: 33%;
+  height: 2000px;
+  background: #134391;
+}
+
+.podval {
+  
+  height: 1980px;
+  background: #1151b8;
+   float: center;
  
+}
+
+.clear{
+  clear: both;
+}
+
+nav ul{
+  width: 100%;
+  position:absolute ;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 30px;
+   margin-left: 40px;
+  text-align:relative;
+   margin-right: 100px;
+}
+#cat1{
+  background-color: #800080;
+  padding: 10px;
+  border-radius: 25px;
+}
+#cat2{
+  background-color:#2F4F4F;
+  padding: 10px;
+  border-radius: 25px;
+}
+#cat3{
+  background-color: #000000;
+  padding: 4px;
+  border-radius: 20px;
+  height: 20px; 
+   margin-top: -3px;
+ 
+  
+}
+#cat4{
+  background-color: #696969;
+  padding: 10px;
+  border-radius: 25px;
+}
+nav ul li ul{
+  display: none;
+   z-index: 1;
+   background: #DCDCDC;
+  width: 500px;
+   margin-top: 10px;
+   margin-left: -10px;
+ height: 135px; 
+   border-radius: 20px;
+  align-items: central;
+}
+nav ul li ul li{
+  display: block; 
+   margin-left: -9px; 
+}
+nav li:hover> ul{
+  display: block; 
+  margin-right: 20px;
+}
+
+.comm{
+  background: red;
+  display: flex;
+  margin: 20px;
+  border-radius: 5 px;
+}
+p {
+  font-family: 'Caveat', sans-serif;
+  font-weight: 700;
+}
+.comment { 
+background-color: white; 
+padding: 20px; 
+border-radius: 30px; 
+margin-top: 20px; 
+} 
+.author { 
+margin-top: 0px; 
+margin-bottom: 10px; 
+} 
+.date { 
+color: silver; 
+margin-top: 0px; 
+margin-bottom: 10px; 
+} 
+#sub-comment { 
+margin-left: 0px; 
+}
+
 
